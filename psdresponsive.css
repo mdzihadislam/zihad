@@ -1,0 +1,43 @@
+/*tablet layout*/
+@media only screen and (min-width:200px) and (max-width:991px){
+    .social-area {
+      max-width: 495px;
+    }
+    .inner-hero h2 {
+      font-size: 55px;
+  }
+ 
+}
+/*mobile layout*/
+@media only screen and (min-width:200px) and (max-width:480px){
+  .mini-menu {width: 100%;margin-bottom: 10px;}
+  .mini-menu ul {text-align: center;}
+  .search-area {float: none; width: 250px;margin: 0 auto;}
+  .search-area, .logo-area{float: none; width: 250px;margin: 0 auto; text-align: center;}
+  .search-area, .social-area{float: none; width: 300px;margin: 0 auto;}
+  .social-area ul li { display: inline-block;margin: 0 9px;};
+  .inner-hero h2 {
+    font-size: 31px;
+}
+.inner-hero {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+#work-area, #footer-area{
+  background-color: #f2f2f2;
+  padding: 20px 0;
+}
+.child-work {
+  width: 98%;
+  float: left;
+  margin: 0 1% 10px;
+}
+.child-footer {
+  padding: 1%;
+  margin: 0 1% 10;
+  width: 96%;
+  float: left;
+}
+.left-copyright{width:100%; margin-bottom: 10px;}
+.right-copyright{text-align:left;width: 100%;}
+}
